@@ -4,10 +4,17 @@
 set -e
 cd "$(dirname "$0")"
 
+# Small previews for the page; the full-size PNGs stay in screenshots/.
+mkdir -p thumbs
+for f in screenshots/*.png; do
+	t="thumbs/$(basename "$f" .png).jpg"
+	[ "$t" -nt "$f" ] || sips -s format jpeg -s formatOptions 82 -Z 960 "$f" --out "$t" >/dev/null
+done
+
 NAME="The-Halloway-Haunting-Press-Kit"
 STAGE="$(mktemp -d)"
 mkdir "$STAGE/$NAME"
-cp -R screenshots logo key-art trailer README.txt "$STAGE/$NAME/"
+cp -R screenshots thumbs logo key-art trailer README.txt "$STAGE/$NAME/"
 cp index.html "$STAGE/$NAME/Press-Kit.html"
 rm -f "$NAME.zip"
 (cd "$STAGE" && zip -q -r -X "$OLDPWD/$NAME.zip" "$NAME" -x '*.DS_Store' '*/.keep')
