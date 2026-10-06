@@ -37,6 +37,7 @@ Input:         Keyboard and mouse or controller, mixed freely in split-screen
 Release date:  Q4 2026
 Price:         $6.99
 Press contact: info@newbonesstudios.com
+Steam page:    https://store.steampowered.com/app/5210830/The_Halloway_Haunting/
 Demo:          Free on Steam now
                https://store.steampowered.com/app/5237260/The_Halloway_Haunting_Demo/
 

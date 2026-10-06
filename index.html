@@ -27,7 +27,9 @@
 	}
 	a { color: var(--link); }
 	img { max-width: 100%; display: block; }
-	.hero img { width: 100%; max-height: 70vh; object-fit: cover; }
+	/* The key art is shown whole and never upscaled past its 1232 px width. */
+	.hero { background: #000; }
+	.hero img { width: 100%; max-width: 1232px; height: auto; margin: 0 auto; }
 	main { max-width: 920px; margin: 0 auto; padding: 0 20px 80px; }
 	.lead { font-size: 1.25rem; margin: 40px 0 8px; }
 	.cta { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 8px; }
@@ -85,6 +87,7 @@
 
 <div class="cta">
 	<a class="primary" href="https://store.steampowered.com/app/5237260/The_Halloway_Haunting_Demo/">Play the free demo on Steam</a>
+	<a href="https://store.steampowered.com/app/5210830/The_Halloway_Haunting/">Wishlist the full game on Steam</a>
 	<a id="zip" href="The-Halloway-Haunting-Press-Kit.zip" download>Download the press kit (.zip)</a>
 </div>
 
@@ -100,6 +103,7 @@
 	<dt>Release date</dt><dd>Q4 2026</dd>
 	<dt>Price</dt><dd>$6.99</dd>
 	<dt>Press contact</dt><dd><a href="mailto:info@newbonesstudios.com">info@newbonesstudios.com</a></dd>
+	<dt>Steam page</dt><dd><a href="https://store.steampowered.com/app/5210830/The_Halloway_Haunting/">The Halloway Haunting on Steam</a></dd>
 	<dt>Demo</dt><dd><a href="https://store.steampowered.com/app/5237260/The_Halloway_Haunting_Demo/">Free on Steam now</a></dd>
 </dl>
 
