@@ -186,11 +186,6 @@
 	if (location.protocol === 'file:') {
 		document.getElementById('zip').hidden = true;
 	}
-	// Hide the trailer section when the video file is not in the folder.
-	var trailerSource = document.querySelector('#trailer source');
-	trailerSource.addEventListener('error', function () {
-		document.getElementById('trailer').hidden = true;
-	});
 </script>
 
 </body>
