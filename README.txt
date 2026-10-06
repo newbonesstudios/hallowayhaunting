@@ -9,7 +9,7 @@ IN THIS FOLDER
 --------------
 Press-Kit.html   The press kit as a page
 README.txt       This file
-screenshots/     14 in-game captures, 1920x1080 PNG
+screenshots/     15 in-game captures, 1920x1080 PNG
 thumbs/          Small previews used by Press-Kit.html
 logo/            Logo, transparent PNG
 key-art/         Key art in three sizes, with and without the logo
