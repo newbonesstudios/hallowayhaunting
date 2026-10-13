@@ -36,7 +36,7 @@ Developer:     New Bones Studios
 Engine:        Godot
 Input:         Keyboard and mouse or controller, mixed freely in split-screen
 Release date:  October 26, 2026
-Price:         $5.99
+Price:         $6.99
 Press contact: info@newbonesstudios.com
 Steam page:    https://store.steampowered.com/app/5210830/The_Halloway_Haunting/
 Demo:          Free on Steam now
