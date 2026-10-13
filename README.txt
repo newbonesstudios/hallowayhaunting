@@ -58,7 +58,7 @@ alone when the Wraith arrives.
 
 KEY FEATURES
 ------------
-- Co-op three ways. Play online with up to four players, in split-screen on
+- Three ways to play. Online with up to four players, in split-screen on
   one machine, or alone. Every level can be finished at any party size.
 - Six buildings, six different ways out. Each level has its own layout, puzzle
   chain, and ending rather than a shared checklist.
