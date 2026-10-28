@@ -14,7 +14,10 @@ done
 NAME="The-Halloway-Haunting-Press-Kit"
 STAGE="$(mktemp -d)"
 mkdir "$STAGE/$NAME"
-cp -R screenshots thumbs logo key-art trailer README.txt "$STAGE/$NAME/"
+cp -R screenshots thumbs logo key-art README.txt "$STAGE/$NAME/"
+# Only the web trailer goes in the zip; full-quality masters stay out (they go on the GitHub release).
+mkdir "$STAGE/$NAME/trailer"
+cp trailer/trailer.mp4 "$STAGE/$NAME/trailer/"
 cp index.html "$STAGE/$NAME/Press-Kit.html"
 rm -f "$NAME.zip"
 (cd "$STAGE" && zip -q -r -X "$OLDPWD/$NAME.zip" "$NAME" -x '*.DS_Store' '*/.keep')

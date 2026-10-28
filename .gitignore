@@ -1,2 +1,4 @@
 .DS_Store
 T8_house_head/
+trailer/*
+!trailer/trailer.mp4
